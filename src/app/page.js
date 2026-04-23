@@ -1,4 +1,5 @@
 import Hero from "@/componants/Hero";
+import PopularDestinations from "@/componants/PopularDestinations";
 import TrustedBy from "@/componants/TrustedBy";
 
 export default function Home() {
@@ -9,6 +10,7 @@ export default function Home() {
       </section>
       <Hero/>
       <TrustedBy/>
+      <PopularDestinations/>
     </div>
   );
 }
