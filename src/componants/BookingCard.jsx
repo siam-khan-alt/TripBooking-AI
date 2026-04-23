@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function BookingCard() {
   return (
-    <div className="bg-white relative lg:absolute lg:top-[486.22px] rounded-2xl shadow-[0px_10px_20px_0px_rgba(0,0,0,0.05)] mt-6 lg:mt-0 p-4 lg:p-8  w-[95%] lg:w-full max-w-[1224px]  mx-auto left-0 right-0 z-20 lg:h-[230px]">
+    <div className="bg-white relative lg:absolute lg:top-[486.22px] rounded-t-2xl rounded-b-none lg:rounded-2xl shadow-[0px_10px_20px_0px_rgba(0,0,0,0.05)] mt-6 lg:mt-0 p-4 lg:p-8  w-[95%] lg:w-full max-w-[1224px]  mx-auto left-0 right-0 z-20 lg:h-[230px]">
       <div className="flex flex-col md:flex-row items-start md:items-center justify-between mb-6">
         <div className="flex items-center gap-4">
           <button className="flex items-center gap-2 px-4 py-2 font-bold text-[#000000]   ">

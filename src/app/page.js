@@ -1,4 +1,5 @@
 import Hero from "@/componants/Hero";
+import TrustedBy from "@/componants/TrustedBy";
 
 export default function Home() {
   return (
@@ -7,6 +8,7 @@ export default function Home() {
         <p >Autodesigner 2.0 is here. The most popular UI generator just got even better!</p>
       </section>
       <Hero/>
+      <TrustedBy/>
     </div>
   );
 }
