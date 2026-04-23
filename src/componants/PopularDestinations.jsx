@@ -42,10 +42,10 @@ export default function PopularDestinations() {
       <div className="max-w-[1248px] mx-auto px-6 lg:px-0">
         {/* Header Content */}
         <div className="mb-[38px]">
-          <h2 className="text-4xl lg:text-[52px] font-extrabold text-[#000000]  mb-3">
+          <h2 className="text-4xl lg:text-[52px] font-extrabold text-[#000000] lg:text-left text-center mb-3">
             Popular Destinations
           </h2>
-          <p className="text-[20px] text-[#737373] font-medium">
+          <p className="text-[20px] lg:text-left text-center text-[#737373] font-medium">
             Favorite destinations based on customer reviews
           </p>
         </div>
