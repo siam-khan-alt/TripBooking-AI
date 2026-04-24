@@ -1,5 +1,6 @@
 import FeaturedTours from "@/componants/FeaturedTours";
 import Hero from "@/componants/Hero";
+import Offers from "@/componants/Offers";
 import PopularDestinations from "@/componants/PopularDestinations";
 import TrustedBy from "@/componants/TrustedBy";
 
@@ -13,6 +14,7 @@ export default function Home() {
       <TrustedBy/>
       <PopularDestinations/>
       <FeaturedTours/>
+      <Offers/>
     </div>
   );
 }

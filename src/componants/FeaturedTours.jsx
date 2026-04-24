@@ -79,7 +79,7 @@ export default function FeaturedTours() {
               </div>
 
               {/*-- Content Card --*/}
-              <div className="bg-white mr-0  -mt-28 lg:-mt-20 relative z-10 p-4 lg:p-8 rounded-2xl lg:rounded-4xl w-[302px] lg:w-[392px] h-[273px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.05)] border border-[#F2F4F6]">
+              <div className="bg-white mr-0  -mt-28 lg:-mt-20 relative z-10 p-4 lg:p-8 rounded-2xl lg:rounded-4xl w-full h-[273px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.05)] border border-[#F2F4F6]">
                 <h4 className="text-lg lg:text-2xl font-extrabold text-[#000000] mb-3  line-clamp-2">
                   {tour.title}
                 </h4>
