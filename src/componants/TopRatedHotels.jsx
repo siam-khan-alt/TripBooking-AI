@@ -32,9 +32,9 @@ export default function TopRatedHotels() {
 
   return (
     <section className="w-full max-w-[1920px] bg-[#009AC5]/20 pt-20 pb-[52px] relative overflow-hidden mx-auto">
-      <div className="absolute inset-0 opacity-20 pointer-events-none">
+      <div className="absolute inset-0">
         <Image
-          src="/topographic.svg"
+          src="/topographic.webp"
           alt="pattern"
           fill
           className="object-cover"

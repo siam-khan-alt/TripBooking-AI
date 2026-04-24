@@ -62,13 +62,12 @@ export default function FeaturedTours() {
         {/* Tour Cards */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {tours.map((tour, index) => (
-            <div key={index} className="   ">
+            <div key={index} >
               <div className="relative h-[326px] w-full lg:rounded-4xl rounded-2xl overflow-hidden">
                 <Image
                   src={tour.src}
                   alt={tour.title}
-                  width={390}
-                  height={406}
+                  fill
                   className="object-cover "
                 />
                 <div

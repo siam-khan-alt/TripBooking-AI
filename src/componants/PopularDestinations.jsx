@@ -2,7 +2,6 @@ import Image from "next/image";
 import { ArrowRight } from "lucide-react";
 
 export default function PopularDestinations() {
-  
   const destinations = [
     {
       name: "Venice",
@@ -57,14 +56,15 @@ export default function PopularDestinations() {
               key={index}
               className="bg-white rounded-3xl border border-[#E4E6E8] p-4 h-[305px] flex flex-col"
             >
-              <Image
-                src={dest.src}
-                alt={dest.name}
-                width={256}
-                height={202}
-                className="object-cover w-[256px] h-[202px] rounded-[20px]"
-              />
-
+              {" "}
+              <div className="relative h-[326px] w-full lg:rounded-[20px] rounded-2xl overflow-hidden h-[202px]">
+                <Image
+                  src={dest.src}
+                  alt={dest.name}
+                  fill
+                  className="object-cover "
+                />
+              </div>
               <div>
                 <h4 className="text-[18px] font-bold text-[#000000] mt-2 mb-[6px]">
                   {dest.name}

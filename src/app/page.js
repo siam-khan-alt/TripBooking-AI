@@ -1,5 +1,6 @@
 import CTASection from "@/componants/CTASection";
 import FeaturedTours from "@/componants/FeaturedTours";
+import Footer from "@/componants/Footer";
 import Hero from "@/componants/Hero";
 import Offers from "@/componants/Offers";
 import PartnerSection from "@/componants/PartnerSection";
@@ -21,6 +22,7 @@ export default function Home() {
       <TopRatedHotels/>
       <CTASection/>
       <PartnerSection/>
+      <Footer/>
     </div>
   );
 }
