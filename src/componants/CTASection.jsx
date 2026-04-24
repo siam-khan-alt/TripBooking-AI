@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function CTASection() {
   return (
-    <section className="relative w-full max-w-[1920px] mx-auto px-1 lg:px-16 pt-[52px] pb-[109px]">
+    <section className="relative w-full max-w-[1920px] mx-auto px-1 lg:px-16 pt-[52px] pb-[52px] lg:pb-[109px]">
       <div className="relative w-full max-w-[1811px] mx-auto bg-[#0640C3] py-20 lg:py-28 overflow-hidden ">
         {/* Left Side Layer */}
         <div
@@ -70,7 +70,7 @@ export default function CTASection() {
               <div className="w-[1px] h-[32px] bg-black"></div>
               <div className="flex flex-col items-start leading-none">
                 <span className="text-[12px] text-gray-500 font-medium">
-                  Download on the
+                  Download on the 
                 </span>
                 <span className="text-[15px] font-bold text-black">
                   Apple Store
