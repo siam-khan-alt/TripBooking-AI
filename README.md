@@ -1,36 +1,33 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# TripBooking AI - Frontend Intern Assessment
 
-## Getting Started
+Hello! I am **MD Siam Khan**, and this is my implementation of the TripBooking AI landing page based on the provided Figma design. I have focused on achieving high UI accuracy, clean code structure, and full responsiveness across Mobile and Desktop devices.
 
-First, run the development server:
+## 🚀 Live Demo
+- **Live Deployment:** [https://trip-booking-ai.vercel.app/](https://trip-booking-ai.vercel.app/)
+- **GitHub Repository:** [https://github.com/siam-khan-alt/TripBooking-AI](https://github.com/siam-khan-alt/TripBooking-AI)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🛠️ Tech Stack
+- **Framework:** Next.js 15+ (App Router)
+- **Language:** JavaScript / React 19
+- **Styling:** Tailwind CSS 4
+- **Icons:** Lucide React
+- **Fonts:** Manrope & Roboto (Google Fonts)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ✨ Features Implemented
+- **Pixel-Perfect UI:** Closely followed the Figma design, including specific layer blurs, gradients, and spacings.
+- **Full Responsiveness:** Optimized for Mobile and Desktop screens using Tailwind's responsive modifiers.
+- **Reusable Components:** Broken down into modular components such as:
+  - `Hero`: With custom background overlay and navigation.
+  - `TopRatedHotels`: Card-based slider/grid layout with custom topography background.
+  - `CTASection`: Featuring complex progressive layer blurs (Ellipse) as per Figma properties.
+  - `PartnerSection` & `Footer`: Responsive layouts with optimized asset loading.
+- **Performance Optimized:** Used `next/image` for automatic image optimization and lazy loading.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 🔧 Setup Instructions
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/siam-khan-alt/TripBooking-AI.git](https://github.com/siam-khan-alt/TripBooking-AI.git)
+   cd TripBooking-AI
+   npm install
+   npm run dev
