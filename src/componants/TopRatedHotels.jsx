@@ -80,12 +80,12 @@ export default function TopRatedHotels() {
               </div>
 
               {/* Content Card */}
-              <div className="bg-white mr-0 -mt-28 lg:-mt-20 relative z-10 p-4 lg:p-8 rounded-2xl lg:rounded-[30px] w-full h-[273px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.05)] border border-[#F2F4F6]">
-                <h4 className="text-lg lg:text-2xl font-extrabold text-[#000000] mb-3 line-clamp-2 leading-tight">
+              <div className="bg-white mr-0 -mt-28 lg:-mt-20 relative z-10 p-4 py-6 lg:py-[42px] px-5 lg:px-[32px] rounded-2xl lg:rounded-[30px] w-full h-full lg:h-[273px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.05)] border border-[#F2F4F6]">
+                <h4 className="text-lg lg:text-2xl font-extrabold text-[#000000] mb-2 line-clamp-2 leading-tight">
                   {hotel.title}
                 </h4>
 
-                <div className="flex items-center justify-between mb-4">
+                <div className="flex items-center justify-between ">
                   <div className="flex items-center gap-1 text-[#737373] text-[14px]">
                     <MapPin size={16} className="text-[#D6D7D8]" />
                     <span>{hotel.location}</span>
@@ -97,7 +97,7 @@ export default function TopRatedHotels() {
                   </div>
                 </div>
 
-                <div className="mb-5 h-4"></div> 
+                <div className="h-7 lg:h-[49px]"></div> 
 
                 <div className="flex items-center justify-between">
                   <div className="flex items-baseline gap-1">
